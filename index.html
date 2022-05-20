@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>LG CNS 홈페이지 데이터 시각화</title>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/modules/sankey.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/modules/export-data.js"></script>
+    <script src="https://code.highcharts.com/modules/accessibility.js"></script>    
+
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script> 
+    <script type="text/javascript">       
+      google.load('visualization', '1', {packages: ['corechart']});    
+    </script>
+    <script src="./chart.css" type="text/css"></script>      
+  </head>
+  <body>
+    <!-- <script>chart();</script> -->
+    <figure class="highcharts-figure">
+      <div id="container"></div>
+    </figure>
+    <!-- <div id="webvitals"></div> -->    
+    <div id="vital_main" style="visibility: hidden; clear: both"></div>
+    <div id="vital_career" style="visibility: hidden; clear: both"></div>
+    <div id="vital_company" style="visibility: hidden; clear: both"></div>
+    <div id="vital_dx" style="visibility: hidden; clear: both"></div>
+    <div id="vital_biz" style="visibility: hidden; clear: both"></div>
+    <div id="beausable" style="clear: both;"></div>
+  </body>
+  <script src="./chart.js" type="text/javascript"></script>
+  <script src="./graph.js" type="text/javascript"></script>
+</html>
