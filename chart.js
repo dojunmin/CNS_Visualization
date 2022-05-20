@@ -42,9 +42,9 @@
             if (event.point.name === "메인") {
               document.getElementById(
                 "beausable"
-              ).innerHTML = `<img src="C:\\img\\main_heatmap.png" style="width:30%; height:30%;"></img>`
-              + `<img src="C:\\img\\main_move.png" style="width:30%; height:30%; margin-left:3%;"></img>`
-                + `<img src="C:\\img\\main_scroll.png" style="width:30%; height:30%; margin-left:3%;"></img>`;
+              ).innerHTML = `<img src=".\\main_heatmap.png" style="width:30%; height:30%;"></img>`
+              + `<img src=".\\main_move.png" style="width:30%; height:30%; margin-left:3%;"></img>`
+                + `<img src=".\\main_scroll.png" style="width:30%; height:30%; margin-left:3%;"></img>`;
               document.getElementById("vital_main").style.visibility = "visible";
               document.getElementById("vital_career").style.height = "0px";
               document.getElementById("vital_company").style.height = "0px";
@@ -56,9 +56,9 @@
             } else if (event.point.name === "인재채용") {
               document.getElementById(
                 "beausable"
-              ).innerHTML = `<img src="C:\\img\\career_heatmap.png" style="width:30%; height:30%;"></img>`
-              + `<img src="C:\\img\\career_move.png" style="width:30%; height:30%; margin-left:3%;"></img>`
-                + `<img src="C:\\img\\career_scroll.png" style="width:30%; height:30%; margin-left:3%;"></img>`;
+              ).innerHTML = `<img src=".\\career_heatmap.png" style="width:30%; height:30%;"></img>`
+              + `<img src=".\\career_move.png" style="width:30%; height:30%; margin-left:3%;"></img>`
+                + `<img src=".\\career_scroll.png" style="width:30%; height:30%; margin-left:3%;"></img>`;
               document.getElementById("vital_main").style.height = "0px";
               document.getElementById("vital_career").style.visibility = "visible";
               document.getElementById("vital_company").style.height = "0px";
@@ -70,9 +70,9 @@
             } else if (event.point.name === "DX자료실") {
               document.getElementById(
                 "beausable"
-              ).innerHTML = `<img src="C:\\img\\dx_heatmap.png" style="width:30%; height:30%;"></img>`
-              + `<img src="C:\\img\\dx_move.png" style="width:30%; height:30%; margin-left:3%;"></img>`
-                + `<img src="C:\\img\\dx_scroll.png" style="width:30%; height:30%; margin-left:3%;"></img>`;
+              ).innerHTML = `<img src=".\\dx_heatmap.png" style="width:30%; height:30%;"></img>`
+              + `<img src=".\\dx_move.png" style="width:30%; height:30%; margin-left:3%;"></img>`
+                + `<img src=".\\dx_scroll.png" style="width:30%; height:30%; margin-left:3%;"></img>`;
               document.getElementById("vital_main").style.height = "0px";
               document.getElementById("vital_career").style.height = "0px";
               document.getElementById("vital_company").style.height = "0px";
@@ -84,9 +84,9 @@
             } else if (event.point.name === "비즈니스/클라우드") {
               document.getElementById(
                 "beausable"
-              ).innerHTML = `<img height="30%", src="C:\\img\\business_heatmap.png" style="width:30%; height:30%;"></img>`
-              + `<img src="C:\\img\\business_move.png" style="width:30%; height:30%; margin-left:3%;"></img>`
-                + `<img src="C:\\img\\business_scroll.png" style="width:30%; height:30%; margin-left:3%;"></img>`;
+              ).innerHTML = `<img height="30%", src=".\\business_heatmap.png" style="width:30%; height:30%;"></img>`
+              + `<img src=".\\business_move.png" style="width:30%; height:30%; margin-left:3%;"></img>`
+                + `<img src=".\\business_scroll.png" style="width:30%; height:30%; margin-left:3%;"></img>`;
               document.getElementById("vital_main").style.height = "0px";
               document.getElementById("vital_career").style.height = "0px";
               document.getElementById("vital_company").style.height = "0px";
@@ -98,9 +98,9 @@
             } else if (event.point.name === "회사소개") {
               document.getElementById(
                 "beausable"
-              ).innerHTML = `<img src="C:\\img\\business_heatmap.png" style="width:30%; height:30%;"></img>`
-              + `<img src="C:\\img\\business_move.png" style="width:30%; height:30%; margin-left:3%;"></img>`
-                + `<img src="C:\\img\\business_scroll.png" style="width:30%; height:30%; margin-left:3%;"></img>`;
+              ).innerHTML = `<img src=".\\business_heatmap.png" style="width:30%; height:30%;"></img>`
+              + `<img src=".\\business_move.png" style="width:30%; height:30%; margin-left:3%;"></img>`
+                + `<img src=".\\business_scroll.png" style="width:30%; height:30%; margin-left:3%;"></img>`;
               document.getElementById("vital_main").style.height = "0px";
               document.getElementById("vital_career").style.height = "0px";
               document.getElementById("vital_company").style.visibility = "visible";
