@@ -40,76 +40,62 @@
         events: {
           click: function (event) {
             if (event.point.name === "메인") {
+              drawWordCloud();
+              drawGraph();
               document.getElementById(
                 "beausable"
               ).innerHTML = `<img src=".\\main_heatmap.png" style="width:30%; height:30%;"></img>`
               + `<img src=".\\main_move.png" style="width:30%; height:30%; margin-left:3%;"></img>`
                 + `<img src=".\\main_scroll.png" style="width:30%; height:30%; margin-left:3%;"></img>`;
-              document.getElementById("vital_main").style.visibility = "visible";
-              document.getElementById("vital_career").style.height = "0px";
-              document.getElementById("vital_company").style.height = "0px";
-              document.getElementById("vital_dx").style.height = "0px";
-              document.getElementById("vital_biz").style.height = "0px";
-              // document.getElementById(
-              //   "webvitals"
-              // ).innerHTML = `<div>LCP:${Math.random()}</div><div>CLS:${Math.random()}</div><div>LCP:${Math.random()}</div>`;              
+              // document.getElementById("vital_main").style.visibility = "visible";
+              // document.getElementById("vital_career").style.height = "0px";
+              // document.getElementById("vital_company").style.height = "0px";
+              // document.getElementById("vital_dx").style.height = "0px";
+              // document.getElementById("vital_biz").style.height = "0px";              
             } else if (event.point.name === "인재채용") {
               document.getElementById(
                 "beausable"
               ).innerHTML = `<img src=".\\career_heatmap.png" style="width:30%; height:30%;"></img>`
               + `<img src=".\\career_move.png" style="width:30%; height:30%; margin-left:3%;"></img>`
                 + `<img src=".\\career_scroll.png" style="width:30%; height:30%; margin-left:3%;"></img>`;
-              document.getElementById("vital_main").style.height = "0px";
-              document.getElementById("vital_career").style.visibility = "visible";
-              document.getElementById("vital_company").style.height = "0px";
-              document.getElementById("vital_dx").style.height = "0px";
-              document.getElementById("vital_biz").style.height = "0px";
-              // document.getElementById(
-              //   "webvitals"
-              // ).innerHTML = `<div>LCP:${Math.random()}</div><div>CLS:${Math.random()}</div><div>LCP:${Math.random()}</div>`;              
+              // document.getElementById("vital_main").style.height = "0px";
+              // document.getElementById("vital_career").style.visibility = "visible";
+              // document.getElementById("vital_company").style.height = "0px";
+              // document.getElementById("vital_dx").style.height = "0px";
+              // document.getElementById("vital_biz").style.height = "0px";              
             } else if (event.point.name === "DX자료실") {
               document.getElementById(
                 "beausable"
               ).innerHTML = `<img src=".\\dx_heatmap.png" style="width:30%; height:30%;"></img>`
               + `<img src=".\\dx_move.png" style="width:30%; height:30%; margin-left:3%;"></img>`
                 + `<img src=".\\dx_scroll.png" style="width:30%; height:30%; margin-left:3%;"></img>`;
-              document.getElementById("vital_main").style.height = "0px";
-              document.getElementById("vital_career").style.height = "0px";
-              document.getElementById("vital_company").style.height = "0px";
-              document.getElementById("vital_dx").style.visibility = "visible";
-              document.getElementById("vital_biz").style.height = "0px";
-              // document.getElementById(
-              //   "webvitals"
-              // ).innerHTML = `<div>LCP:${Math.random()}</div><div>CLS:${Math.random()}</div><div>LCP:${Math.random()}</div>`;              
+              // document.getElementById("vital_main").style.height = "0px";
+              // document.getElementById("vital_career").style.height = "0px";
+              // document.getElementById("vital_company").style.height = "0px";
+              // document.getElementById("vital_dx").style.visibility = "visible";
+              // document.getElementById("vital_biz").style.height = "0px";
             } else if (event.point.name === "비즈니스/클라우드") {
               document.getElementById(
                 "beausable"
               ).innerHTML = `<img height="30%", src=".\\business_heatmap.png" style="width:30%; height:30%;"></img>`
               + `<img src=".\\business_move.png" style="width:30%; height:30%; margin-left:3%;"></img>`
                 + `<img src=".\\business_scroll.png" style="width:30%; height:30%; margin-left:3%;"></img>`;
-              document.getElementById("vital_main").style.height = "0px";
-              document.getElementById("vital_career").style.height = "0px";
-              document.getElementById("vital_company").style.height = "0px";
-              document.getElementById("vital_dx").style.height = "0px";
-              document.getElementById("vital_biz").style.visibility = "visible";
-              // document.getElementById(
-              //   "webvitals"
-              // ).innerHTML = `<div>LCP:${Math.random()}</div><div>CLS:${Math.random()}</div><div>LCP:${Math.random()}</div>`;              
+              // document.getElementById("vital_main").style.height = "0px";
+              // document.getElementById("vital_career").style.height = "0px";
+              // document.getElementById("vital_company").style.height = "0px";
+              // document.getElementById("vital_dx").style.height = "0px";
+              // document.getElementById("vital_biz").style.visibility = "visible";
             } else if (event.point.name === "회사소개") {
               document.getElementById(
                 "beausable"
               ).innerHTML = `<img src=".\\business_heatmap.png" style="width:30%; height:30%;"></img>`
               + `<img src=".\\business_move.png" style="width:30%; height:30%; margin-left:3%;"></img>`
                 + `<img src=".\\business_scroll.png" style="width:30%; height:30%; margin-left:3%;"></img>`;
-              document.getElementById("vital_main").style.height = "0px";
-              document.getElementById("vital_career").style.height = "0px";
-              document.getElementById("vital_company").style.visibility = "visible";
-              document.getElementById("vital_dx").style.height = "0px";
-              document.getElementById("vital_biz").style.height = "0px";
-              // document.getElementById(
-              //   "webvitals"
-              // ).innerHTML = `<div>LCP:${Math.random()}</div><div>CLS:${Math.random()}</div><div>LCP:${Math.random()}</div>`;
-              
+              // document.getElementById("vital_main").style.height = "0px";
+              // document.getElementById("vital_career").style.height = "0px";
+              // document.getElementById("vital_company").style.visibility = "visible";
+              // document.getElementById("vital_dx").style.height = "0px";
+              // document.getElementById("vital_biz").style.height = "0px";
             }
           },
         },
@@ -119,21 +105,118 @@
     ]
   });
 
+  function drawWordCloud() {
+    const text =
+        "느림, 컨텐츠부족, 페이지 이동, 로딩시간, 유익한, CNS이미지대표하기부족, 달라진게없음, 새로운컨텐츠부족, 내용이어려움, 내용이어려움,내용이어려움,내용이어려움,내용이어려움,내용이어려움,내용이어려움,내용이어려움,인재채용과연관성부족, 메인보다블로그, 느림, 컨텐츠부족, 페이지 이동,느림, 컨텐츠부족, 페이지 이동,느림, 컨텐츠부족, 페이지 이동",
+      lines = text.split(/[,\. ]+/g),
+      data = lines.reduce((arr, word) => {
+        let obj = Highcharts.find(arr, (obj) => obj.name === word);
+        console.log(arr);
+        if (obj) {
+          obj.weight += 1;
+        } else {
+          obj = {
+            name: word,
+            weight: 1,
+          };
+          arr.push(obj);
+        }
+        return arr;
+      }, []);
+  
+    Highcharts.chart("word_cloud", {
+      accessibility: {
+        screenReaderSection: {
+          beforeChartFormat:
+            "<h5>{chartTitle}</h5>" +
+            "<div>{chartSubtitle}</div>" +
+            "<div>{chartLongdesc}</div>" +
+            "<div>{viewTableButton}</div>",
+        },
+      },
+      series: [
+        {
+          type: "wordcloud",
+          data,
+          name: "Occurrences",
+        },
+      ],
+      title: {
+        text: "LG CNS 홈페이지 설문조사 결과",
+      },
+    });
+  }
 
-// function drawVisualization(event_name) {
-//   var data = google.visualization.arrayToDataTable([
-//     ['Vitals', '전체페이지 ', event_name],
-//     ['LCP', 20, 30],
-//     ['FID', 25, 30],
-//     ['CLS', 45, 40]
-//   ]);
-//   var options = {
-//     title: 'Page Web Vitals 평균',
-//     vAxis: { title: "명" },
-//     hAxis: { title: "월" },
-//     seriesType: "bars",
-//     series: { 5: { type: "line" } }
-//   };
-//   var chart = new google.visualization.ComboChart(document.getElementById('chart_div'));
-//   chart.draw(data, options);
-// }
+  function drawGraph() {
+    Highcharts.chart('graph', {
+      chart: {
+        type: 'bar'
+      },
+      title: {
+        text: 'LG CNS 홈페이지 Web Vitals'
+      },
+      // subtitle: {
+      //   text: 'Source: <a href="https://en.wikipedia.org/wiki/World_population">Wikipedia.org</a>'
+      // },
+      xAxis: {
+        categories: ['LCP', 'FID', 'CLS'],
+        title: {
+          text: null
+        }
+      },
+      yAxis: {
+        min: 0,
+        title: {
+          text: '시간 (msec)',
+          align: 'high'
+        },
+        labels: {
+          overflow: 'justify'
+        }
+      },
+      tooltip: {
+        valueSuffix: 'msec'
+      },
+      plotOptions: {
+        bar: {
+          dataLabels: {
+            enabled: true
+          }
+        }
+      },
+      legend: {
+        layout: 'vertical',
+        align: 'right',
+        verticalAlign: 'top',
+        x: -40,
+        y: 80,
+        floating: true,
+        borderWidth: 1,
+        backgroundColor:
+          Highcharts.defaultOptions.legend.backgroundColor || '#FFFFFF',
+        shadow: true
+      },
+      credits: {
+        enabled: false
+      },
+      series: [{
+        name: '전체페이지',
+        data: [0.8, 0.5, 0.03]
+      }, {
+        name: '메인',
+        data: [1.5, 0.6, 0.05]
+      }, {
+        name: '인재채용',
+        data: [0.6, 0.5, 0.04]
+      }, {
+        name: '회사소개',
+        data: [1.0, 0.7, 0.03]
+      }, {
+        name: 'DX자료실',
+        data: [0.9, 0.6, 0.05]
+      }, {
+        name: '비즈니스/클라우드',
+        data: [1.3, 0.8, 0.09]
+      }]
+    });
+  }
