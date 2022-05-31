@@ -150,22 +150,23 @@
               drawGraphCLS();
               document.getElementById(
                 "beausable"
-              ).innerHTML = `<img src=".\\main_heatmap.png" style="width:30%; height:30%;"></img>`
-              + `<img src=".\\main_move.png" style="width:30%; height:30%; margin-left:3%;"></img>`
-                + `<img src=".\\main_scroll.png" style="width:30%; height:30%; margin-left:3%;"></img>`;              
+              ).innerHTML = `<a href="https://tool.beusable.net/report/62820a4b6af1f0214219bdbc/" target="_black"><img src=".\\main_heatmap.png" style="width:30%; height:30%;"></img></a>`
+              + `<a href="https://tool.beusable.net/report/62820a4b6af1f0214219bdbc/" target="_black"><img src=".\\main_move.png" style="width:30%; height:30%; margin-left:3%;"></img></a>`
+                + `<a href="https://tool.beusable.net/report/62820a4b6af1f0214219bdbc/" target="_black"><img src=".\\main_scroll.png" style="width:30%; height:30%; margin-left:3%;"></img></a>`;
             } else if (event.point.name === "인재채용_" || event.point.name === "인재채용__" || event.point.name === "인재채용___") {              
               drawGraphLCP();
               drawGraphFID();
               drawGraphCLS();              
               document.getElementById(
                 "beausable"
-              ).innerHTML = `<img src=".\\career_heatmap.png" style="width:30%; height:30%;"></img>`
-              + `<img src=".\\career_move.png" style="width:30%; height:30%; margin-left:3%;"></img>`
-                + `<img src=".\\career_scroll.png" style="width:30%; height:30%; margin-left:3%;"></img>`;
+              ).innerHTML = `<a href="https://tool.beusable.net/report/6281fdba6af1f0214219bda9/" target="_black"><img src=".\\career_heatmap.png" style="width:30%; height:30%;" ></img></a>`
+              + `<a href="https://tool.beusable.net/report/6281fdba6af1f0214219bda9/" target="_black"><img src=".\\career_move.png" style="width:30%; height:30%; margin-left:3%;"></img></a>`
+                + `<a href="https://tool.beusable.net/report/6281fdba6af1f0214219bda9/" target="_black"><img src=".\\career_scroll.png" style="width:30%; height:30%; margin-left:3%;"></img></a>`;
             } else if (event.point.name === "이탈" || event.point.name === "이탈_" || event.point.name === "이탈__" || event.point.name === "이탈___") {
               drawGraphLCP();
               drawGraphFID();
               drawGraphCLS();
+              drawWordCloud();
               document.getElementById("chart_main").style.height = "0px";
               document.getElementById("chart_career").style.height = "0px";
             }
