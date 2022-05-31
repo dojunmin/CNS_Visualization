@@ -258,7 +258,7 @@ Highcharts.chart('graph_LCP', {
   },
   title: {
     align: 'center',
-    text: 'LG CNS 홈페이지 Web Vitals (LCP)'
+    text: 'LG CNS 홈페이지 Web Vitals 평균 (LCP)'
   },
   subtitle: {
     align: 'center',
@@ -333,7 +333,7 @@ Highcharts.chart('graph_FID', {
   },
   title: {
     align: 'center',
-    text: 'LG CNS 홈페이지 Web Vitals (FID)'
+    text: 'LG CNS 홈페이지 Web Vitals 평균 (FID)'
   },
   subtitle: {
     align: 'center',
@@ -408,7 +408,7 @@ Highcharts.chart('graph_CLS', {
   },
   title: {
     align: 'center',
-    text: 'LG CNS 홈페이지 Web Vitals (CLS)'
+    text: 'LG CNS 홈페이지 Web Vitals 평균 (CLS)'
   },
   subtitle: {
     align: 'center',
