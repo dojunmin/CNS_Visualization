@@ -91,9 +91,9 @@
               drawGraphCLS();
               document.getElementById(
                 "beausable"
-              ).innerHTML = `<img src=".\\main_heatmap.png" style="width:30%; height:30%;"></img>`
-              + `<img src=".\\main_move.png" style="width:30%; height:30%; margin-left:3%;"></img>`
-                + `<img src=".\\main_scroll.png" style="width:30%; height:30%; margin-left:3%;"></img>`;
+              ).innerHTML = `<a href="https://tool.beusable.net/report/62820a4b6af1f0214219bdbc/" target="_black"><img src=".\\main_heatmap.png" style="width:30%; height:30%;"></img></a>`
+              + `<a href="https://tool.beusable.net/report/62820a4b6af1f0214219bdbc/" target="_black"><img src=".\\main_move.png" style="width:30%; height:30%; margin-left:3%;"></img></a>`
+                + `<a href="https://tool.beusable.net/report/62820a4b6af1f0214219bdbc/" target="_black"><img src=".\\main_scroll.png" style="width:30%; height:30%; margin-left:3%;"></img></a>`;
               // document.getElementById("vital_main").style.visibility = "visible";
               // document.getElementById("vital_career").style.height = "0px";
               // document.getElementById("vital_company").style.height = "0px";
@@ -108,9 +108,9 @@
               document.getElementById("chart_career").style.height = "400px";
               document.getElementById(
                 "beausable"
-              ).innerHTML = `<img src=".\\career_heatmap.png" style="width:30%; height:30%;"></img>`
-              + `<img src=".\\career_move.png" style="width:30%; height:30%; margin-left:3%;"></img>`
-                + `<img src=".\\career_scroll.png" style="width:30%; height:30%; margin-left:3%;"></img>`;
+              ).innerHTML = `<a href="https://tool.beusable.net/report/6281fdba6af1f0214219bda9/" target="_black"><img src=".\\career_heatmap.png" style="width:30%; height:30%;" ></img></a>`
+              + `<a href="https://tool.beusable.net/report/6281fdba6af1f0214219bda9/" target="_black"><img src=".\\career_move.png" style="width:30%; height:30%; margin-left:3%;"></img></a>`
+                + `<a href="https://tool.beusable.net/report/6281fdba6af1f0214219bda9/" target="_black"><img src=".\\career_scroll.png" style="width:30%; height:30%; margin-left:3%;"></img></a>`;
             } else if (event.point.name === "DX자료실" || event.point.name === "DX자료실_" || event.point.name === "DX자료실__" || event.point.name === "DX자료실___") {
               drawGraphLCP();
               drawGraphFID();
@@ -119,9 +119,9 @@
               document.getElementById("chart_career").style.height = "0px";
               document.getElementById(
                 "beausable"
-              ).innerHTML = `<img src=".\\dx_heatmap.png" style="width:30%; height:30%;"></img>`
-              + `<img src=".\\dx_move.png" style="width:30%; height:30%; margin-left:3%;"></img>`
-                + `<img src=".\\dx_scroll.png" style="width:30%; height:30%; margin-left:3%;"></img>`;
+              ).innerHTML = `<a href="https://tool.beusable.net/report/6281fd616af1f0214219bda6/" target="_black"><img src=".\\dx_heatmap.png" style="width:30%; height:30%;"></img></a>`
+              + `<a href="https://tool.beusable.net/report/6281fd616af1f0214219bda6/" target="_black"><img src=".\\dx_move.png" style="width:30%; height:30%; margin-left:3%;"></img></a>`
+                + `<a href="https://tool.beusable.net/report/6281fd616af1f0214219bda6/" target="_black"><img src=".\\dx_scroll.png" style="width:30%; height:30%; margin-left:3%;"></img></a>`;
             } else if (event.point.name === "비즈니스/클라우드" || event.point.name === "비즈니스/클라우드_" || event.point.name === "비즈니스/클라우드__" || event.point.name === "비즈니스/클라우드___") {
               drawGraphLCP();
               drawGraphFID();
@@ -130,9 +130,9 @@
               document.getElementById("chart_career").style.height = "0px";
               document.getElementById(
                 "beausable"
-              ).innerHTML = `<img height="30%", src=".\\business_heatmap.png" style="width:30%; height:30%;"></img>`
-              + `<img src=".\\business_move.png" style="width:30%; height:30%; margin-left:3%;"></img>`
-                + `<img src=".\\business_scroll.png" style="width:30%; height:30%; margin-left:3%;"></img>`;
+              ).innerHTML = `<a href="https://tool.beusable.net/report/6281fbe96af1f0214219bd93/" target="_black"><img height="30%", src=".\\business_heatmap.png" style="width:30%; height:30%;"></img></a>`
+              + `<a href="https://tool.beusable.net/report/6281fbe96af1f0214219bd93/" target="_black"><img src=".\\business_move.png" style="width:30%; height:30%; margin-left:3%;"></img></a>`
+                + `<a href="https://tool.beusable.net/report/6281fbe96af1f0214219bd93/" target="_black"><img src=".\\business_scroll.png" style="width:30%; height:30%; margin-left:3%;"></img></a>`;
             } else if (event.point.name === "회사소개" || event.point.name === "회사소개_" || event.point.name === "회사소개__" || event.point.name === "회사소개___") {
               drawGraphLCP();
               drawGraphFID();
@@ -141,9 +141,9 @@
               document.getElementById("chart_career").style.height = "0px";
               document.getElementById(
                 "beausable"
-              ).innerHTML = `<img src=".\\business_heatmap.png" style="width:30%; height:30%;"></img>`
-              + `<img src=".\\business_move.png" style="width:30%; height:30%; margin-left:3%;"></img>`
-                + `<img src=".\\business_scroll.png" style="width:30%; height:30%; margin-left:3%;"></img>`;
+                ).innerHTML = `<a href="https://tool.beusable.net/report/6281fbe96af1f0214219bd93/" target="_black"><img height="30%", src=".\\business_heatmap.png" style="width:30%; height:30%;"></img></a>`
+                + `<a href="https://tool.beusable.net/report/6281fbe96af1f0214219bd93/" target="_black"><img src=".\\business_move.png" style="width:30%; height:30%; margin-left:3%;"></img></a>`
+                  + `<a href="https://tool.beusable.net/report/6281fbe96af1f0214219bd93/" target="_black"><img src=".\\business_scroll.png" style="width:30%; height:30%; margin-left:3%;"></img></a>`;
             } else if (event.point.name === "메인_" || event.point.name === "메인__" || event.point.name === "메인___") {
               drawGraphLCP();
               drawGraphFID();
