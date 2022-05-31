@@ -14,57 +14,81 @@
     series: [
       {
         keys: ["from", "to", "weight"],
-        data: [
-          // ["naver", "메인", 1065],
-          // ["google", "메인", 812],
-          // ["다이렉트", "메인", 639],
-          // ["naver/링크", "메인", 162],
-          // ["naver", "인재채용", 176, 1],
-          // ["google", "인재채용", 243, 1],
-          // ["다이렉트", "인재채용", 47, 1],
-          // ["naver/링크", "인재채용", 72, 1],          
-          //["메인", "신입사원/하계인턴 채용", 211],
-          ["메인", "비즈니스/클라우드", 139],
-          ["메인", "DX자료실", 145],
-          ["메인", "회사소개", 336],          
-          ["메인", "인재채용", 405],
-          ["비즈니스/클라우드", "문의하기", 35],
-          ["비즈니스/클라우드", "CloudXper", 20],
-          ["비즈니스/클라우드", "CloudXper ProOps", 19],
-          ["비즈니스/클라우드", "데이터센터", 19],
-          ["DX자료실", "문의하기", 15],
-          ["DX자료실", "미션 잉글리시", 110],
-          ["DX자료실", "LISA 스피킹 클래스", 69],
-          ["DX자료실", "LISA TOST", 79],
-          ["DX자료실", "하루조각", 97],
-          ["회사소개", "문의하기", 33],
-          ["회사소개", "CEO소개", 21],
-          ["회사소개", "History", 53],
-          ["회사소개", "Vision", 29],
-          ["회사소개", "투자정보", 269],          
-          ["인재채용", "문의하기", 40],
-          ["인재채용", "DX 지원하기", 205],
-          ["인재채용", "스마트팩토리 지원하기", 150],
-          ["인재채용", "인턴(학사)", 78],          
-          ["인재채용", "인턴(석/박사)", 59],
-          // ["인재채용", "메인", 92],
-          // ["인재채용", "DX자료실", 8],
-          // ["인재채용", "회사소개", 14],        
-          // ["인재채용", "비즈니스/클라우드", 5],
-          // ["회사소개", "메인", 52],
-          // ["회사소개", "DX자료실", 5],        
-          // ["회사소개", "비즈니스/클라우드", 19],
-          // ["DX자료실", "메인", 32],
-          // ["DX자료실", "인재채용", 15],
-          // ["DX자료실", "회사소개", 15],        
-          // ["DX자료실", "비즈니스/클라우드", 14]
+        data: [         
+          ["메인", "인재채용_", 629],
+          ["메인", "회사소개", 536],
+          ["메인", "비즈니스/클라우드", 224],
+          ["메인", "DX자료실", 220],
+          ["메인", "이탈", 2500],                   
+          
+          ["인재채용", "메인_", 35],
+          ["인재채용", "회사소개", 15],
+          ["인재채용", "DX자료실", 12],
+          ["인재채용", "비즈니스/클라우드", 1],          
+          ["인재채용", "이탈", 835],          
+
+          ["인재채용_", "메인__", 139],
+          ["인재채용_", "DX자료실__", 10],
+          ["인재채용_", "회사소개__", 25],
+          ["인재채용_", "비즈니스/클라우드__", 19],
+          ["인재채용_", "이탈_", 531],
+          ["메인_", "인재채용__", 34],
+          ["메인_", "DX자료실__", 13],
+          ["메인_", "회사소개__", 13],
+          ["메인_", "비즈니스/클라우드__", 12],          
+          ["메인_", "이탈_", 73],
+          ["회사소개", "메인__", 85],
+          ["회사소개", "DX자료실__", 8],
+          ["회사소개", "인재채용__", 34],
+          ["회사소개", "비즈니스/클라우드__", 33],
+          ["회사소개", "이탈_", 277],
+          ["DX자료실", "메인__", 51],
+          ["DX자료실", "회사소개__", 25],
+          ["DX자료실", "인재채용__", 17],
+          ["DX자료실", "비즈니스/클라우드__", 19],
+          ["DX자료실", "이탈_", 85],
+          ["비즈니스/클라우드", "메인__", 36],
+          ["비즈니스/클라우드", "DX자료실__", 34],
+          ["비즈니스/클라우드", "회사소개__", 21],
+          ["비즈니스/클라우드", "인재채용__", 8],
+          ["비즈니스/클라우드", "이탈_", 64],
+
+          ["메인__", "인재채용___", 83],
+          ["메인__", "DX자료실___", 22],
+          ["메인__", "회사소개___", 52],
+          ["메인__", "비즈니스/클라우드___", 29],
+          ["메인__", "이탈___", 212],
+          ["인재채용__", "메인___", 14],
+          ["인재채용__", "DX자료실___", 5],
+          ["인재채용__", "회사소개___", 9],
+          ["인재채용__", "비즈니스/클라우드___", 2],
+          ["인재채용__", "이탈___", 82],
+          ["회사소개__", "메인___", 14],
+          ["회사소개__", "DX자료실___", 4],
+          ["회사소개__", "인재채용___", 19],
+          ["회사소개__", "비즈니스/클라우드___", 11],
+          ["회사소개__", "이탈___", 59],
+          ["DX자료실__", "메인___", 5],
+          ["DX자료실__", "회사소개___", 13],
+          ["DX자료실__", "인재채용___", 6],
+          ["DX자료실__", "비즈니스/클라우드___", 12],
+          ["DX자료실__", "이탈___", 32],
+          ["비즈니스/클라우드__", "메인___", 20],
+          ["비즈니스/클라우드__", "DX자료실___", 7],
+          ["비즈니스/클라우드__", "회사소개___", 8],
+          ["비즈니스/클라우드__", "인재채용___", 5],
+          ["비즈니스/클라우드__", "이탈___", 32],
         ],
         events: {          
           click: function (event) {
             if (event.point.name === "메인") {
-              drawChart();
-              drawGraph();
-              drawWordCloud();              
+              drawChartMain();
+              document.getElementById("chart_main").style.height = "400px";
+              document.getElementById("chart_career").style.height = "0px";
+              drawWordCloud();
+              drawGraphLCP();
+              drawGraphFID();
+              drawGraphCLS();
               document.getElementById(
                 "beausable"
               ).innerHTML = `<img src=".\\main_heatmap.png" style="width:30%; height:30%;"></img>`
@@ -76,54 +100,112 @@
               // document.getElementById("vital_dx").style.height = "0px";
               // document.getElementById("vital_biz").style.height = "0px";              
             } else if (event.point.name === "인재채용") {
+              drawChartCareer();
+              document.getElementById("chart_main").style.height = "0px";
+              document.getElementById("chart_career").style.height = "400px";
               document.getElementById(
                 "beausable"
               ).innerHTML = `<img src=".\\career_heatmap.png" style="width:30%; height:30%;"></img>`
               + `<img src=".\\career_move.png" style="width:30%; height:30%; margin-left:3%;"></img>`
                 + `<img src=".\\career_scroll.png" style="width:30%; height:30%; margin-left:3%;"></img>`;
-              // document.getElementById("chart").style.height = "0px";
-              // document.getElementById("graph").style.height = "0px";
-              // document.getElementById("word_cloud").style.height = "0px";              
-              // document.getElementById("vital_main").style.height = "0px";
-              // document.getElementById("vital_career").style.visibility = "visible";
-              // document.getElementById("vital_company").style.height = "0px";
-              // document.getElementById("vital_dx").style.height = "0px";
-              // document.getElementById("vital_biz").style.height = "0px";              
             } else if (event.point.name === "DX자료실") {
               document.getElementById(
                 "beausable"
               ).innerHTML = `<img src=".\\dx_heatmap.png" style="width:30%; height:30%;"></img>`
               + `<img src=".\\dx_move.png" style="width:30%; height:30%; margin-left:3%;"></img>`
                 + `<img src=".\\dx_scroll.png" style="width:30%; height:30%; margin-left:3%;"></img>`;
-              // document.getElementById("vital_main").style.height = "0px";
-              // document.getElementById("vital_career").style.height = "0px";
-              // document.getElementById("vital_company").style.height = "0px";
-              // document.getElementById("vital_dx").style.visibility = "visible";
-              // document.getElementById("vital_biz").style.height = "0px";
             } else if (event.point.name === "비즈니스/클라우드") {
               document.getElementById(
                 "beausable"
               ).innerHTML = `<img height="30%", src=".\\business_heatmap.png" style="width:30%; height:30%;"></img>`
               + `<img src=".\\business_move.png" style="width:30%; height:30%; margin-left:3%;"></img>`
                 + `<img src=".\\business_scroll.png" style="width:30%; height:30%; margin-left:3%;"></img>`;
-              // document.getElementById("vital_main").style.height = "0px";
-              // document.getElementById("vital_career").style.height = "0px";
-              // document.getElementById("vital_company").style.height = "0px";
-              // document.getElementById("vital_dx").style.height = "0px";
-              // document.getElementById("vital_biz").style.visibility = "visible";
             } else if (event.point.name === "회사소개") {
               document.getElementById(
                 "beausable"
               ).innerHTML = `<img src=".\\business_heatmap.png" style="width:30%; height:30%;"></img>`
               + `<img src=".\\business_move.png" style="width:30%; height:30%; margin-left:3%;"></img>`
                 + `<img src=".\\business_scroll.png" style="width:30%; height:30%; margin-left:3%;"></img>`;
-              // document.getElementById("vital_main").style.height = "0px";
-              // document.getElementById("vital_career").style.height = "0px";
-              // document.getElementById("vital_company").style.visibility = "visible";
-              // document.getElementById("vital_dx").style.height = "0px";
-              // document.getElementById("vital_biz").style.height = "0px";
+            } else if (event.point.name === "메인_") {
+              document.getElementById(
+                "beausable"
+              ).innerHTML = `<img src=".\\main_heatmap.png" style="width:30%; height:30%;"></img>`
+              + `<img src=".\\main_move.png" style="width:30%; height:30%; margin-left:3%;"></img>`
+                + `<img src=".\\main_scroll.png" style="width:30%; height:30%; margin-left:3%;"></img>`;              
+            } else if (event.point.name === "메인__") {
+              document.getElementById(
+                "beausable"
+              ).innerHTML = `<img src=".\\main_heatmap.png" style="width:30%; height:30%;"></img>`
+              + `<img src=".\\main_move.png" style="width:30%; height:30%; margin-left:3%;"></img>`
+                + `<img src=".\\main_scroll.png" style="width:30%; height:30%; margin-left:3%;"></img>`;              
+            } else if (event.point.name === "인재채용_") {
+              document.getElementById(
+                "beausable"
+              ).innerHTML = `<img src=".\\career_heatmap.png" style="width:30%; height:30%;"></img>`
+              + `<img src=".\\career_move.png" style="width:30%; height:30%; margin-left:3%;"></img>`
+                + `<img src=".\\career_scroll.png" style="width:30%; height:30%; margin-left:3%;"></img>`;              
+            } else if (event.point.name === "인재채용__") {
+              document.getElementById(
+                "beausable"
+              ).innerHTML = `<img src=".\\career_heatmap.png" style="width:30%; height:30%;"></img>`
+              + `<img src=".\\career_move.png" style="width:30%; height:30%; margin-left:3%;"></img>`
+                + `<img src=".\\career_scroll.png" style="width:30%; height:30%; margin-left:3%;"></img>`;              
+            } else if (event.point.name === "DX자료실_") {
+              document.getElementById(
+                "beausable"
+              ).innerHTML = `<img src=".\\dx_heatmap.png" style="width:30%; height:30%;"></img>`
+              + `<img src=".\\dx_move.png" style="width:30%; height:30%; margin-left:3%;"></img>`
+                + `<img src=".\\dx_scroll.png" style="width:30%; height:30%; margin-left:3%;"></img>`;
+            } else if (event.point.name === "DX자료실__") {
+              document.getElementById(
+                "beausable"
+              ).innerHTML = `<img src=".\\dx_heatmap.png" style="width:30%; height:30%;"></img>`
+              + `<img src=".\\dx_move.png" style="width:30%; height:30%; margin-left:3%;"></img>`
+                + `<img src=".\\dx_scroll.png" style="width:30%; height:30%; margin-left:3%;"></img>`;
+            } else if (event.point.name === "DX자료실__") {
+              document.getElementById(
+                "beausable"
+              ).innerHTML = `<img src=".\\dx_heatmap.png" style="width:30%; height:30%;"></img>`
+              + `<img src=".\\dx_move.png" style="width:30%; height:30%; margin-left:3%;"></img>`
+                + `<img src=".\\dx_scroll.png" style="width:30%; height:30%; margin-left:3%;"></img>`;
+            } else if (event.point.name === "비즈니스/클라우드_") {
+              document.getElementById(
+                "beausable"
+              ).innerHTML = `<img height="30%", src=".\\business_heatmap.png" style="width:30%; height:30%;"></img>`
+              + `<img src=".\\business_move.png" style="width:30%; height:30%; margin-left:3%;"></img>`
+                + `<img src=".\\business_scroll.png" style="width:30%; height:30%; margin-left:3%;"></img>`;
+            } else if (event.point.name === "비즈니스/클라우드__") {
+              document.getElementById(
+                "beausable"
+              ).innerHTML = `<img height="30%", src=".\\business_heatmap.png" style="width:30%; height:30%;"></img>`
+              + `<img src=".\\business_move.png" style="width:30%; height:30%; margin-left:3%;"></img>`
+                + `<img src=".\\business_scroll.png" style="width:30%; height:30%; margin-left:3%;"></img>`;
+            } else if (event.point.name === "비즈니스/클라우드___") {
+              document.getElementById(
+                "beausable"
+              ).innerHTML = `<img height="30%", src=".\\business_heatmap.png" style="width:30%; height:30%;"></img>`
+              + `<img src=".\\business_move.png" style="width:30%; height:30%; margin-left:3%;"></img>`
+                + `<img src=".\\business_scroll.png" style="width:30%; height:30%; margin-left:3%;"></img>`;
+            } else if (event.point.name === "회사소개_") {
+              document.getElementById(
+                "beausable"
+              ).innerHTML = `<img src=".\\business_heatmap.png" style="width:30%; height:30%;"></img>`
+              + `<img src=".\\business_move.png" style="width:30%; height:30%; margin-left:3%;"></img>`
+                + `<img src=".\\business_scroll.png" style="width:30%; height:30%; margin-left:3%;"></img>`;
+            } else if (event.point.name === "회사소개__") {
+              document.getElementById(
+                "beausable"
+              ).innerHTML = `<img src=".\\business_heatmap.png" style="width:30%; height:30%;"></img>`
+              + `<img src=".\\business_move.png" style="width:30%; height:30%; margin-left:3%;"></img>`
+                + `<img src=".\\business_scroll.png" style="width:30%; height:30%; margin-left:3%;"></img>`;
+            } else if (event.point.name === "회사소개___") {
+              document.getElementById(
+                "beausable"
+              ).innerHTML = `<img src=".\\business_heatmap.png" style="width:30%; height:30%;"></img>`
+              + `<img src=".\\business_move.png" style="width:30%; height:30%; margin-left:3%;"></img>`
+                + `<img src=".\\business_scroll.png" style="width:30%; height:30%; margin-left:3%;"></img>`;
             }
-          },
+          }
         },
         type: "sankey",
         name: "pageflow",
@@ -133,7 +215,12 @@
 
   function drawWordCloud() {
     const text =
-        "느림, 컨텐츠부족, 페이지 이동, 로딩시간, 유익한, CNS이미지대표하기부족, 달라진게없음, 새로운컨텐츠부족, 내용이어려움, 내용이어려움,내용이어려움,내용이어려움,내용이어려움,내용이어려움,내용이어려움,내용이어려움,인재채용과연관성부족, 메인보다블로그, 느림, 컨텐츠부족, 페이지 이동,느림, 컨텐츠부족, 페이지 이동,느림, 컨텐츠부족, 페이지 이동",
+        "느림, 어렵다, 어렵다, 어렵다, 어렵다, 어렵다, 어렵다, 어렵다, 어렵다, 어렵다, 어렵다, 어렵다, 어렵다, 어렵다, 어렵다, 어렵다, 어렵다, 어렵다, 어렵다"
+        + ", 컨텐츠부족, 페이지 이동, 로딩시간, 유익한, CNS이미지대표하기부족, 달라진게없음, 새로운컨텐츠부족, 내용이어려움 "
+        + ", 인재채용과연관성부족, 메인보다블로그, 느림, 컨텐츠부족, 페이지 이동, 느림"
+        + ", 컨텐츠부족, 페이지 이동,느림, 컨텐츠부족, 페이지이동, 혼란스러움, 흥미반감, 흥미반감, 흥미반감"
+        + ", 산만하다, 산만하다,산만하다,산만하다,산만하다,산만하다,산만하다 "
+        + ", 직관적이지않음, 직관적이지않음, 직관적이지않음, 직관적이지않음"
       lines = text.split(/[,\. ]+/g),
       data = lines.reduce((arr, word) => {
         let obj = Highcharts.find(arr, (obj) => obj.name === word);
@@ -247,15 +334,240 @@
     });
   }
 
-  function drawChart() {
-    Highcharts.chart('chart', {
+  function drawGraphLCP() {    
+Highcharts.chart('graph_LCP', {
+  chart: {
+    type: 'column'
+  },
+  title: {
+    align: 'left',
+    text: 'LG CNS 홈페이지 Web Vitals (LCP)'
+  },
+  subtitle: {
+    align: 'left',
+    text: '2022.05.16 ~ 2022.05.20'
+  },
+  accessibility: {
+    announceNewData: {
+      enabled: true
+    }
+  },
+  xAxis: {
+    type: 'category'
+  },
+  yAxis: {
+    title: {
+      text: '초 (sec)'
+    }
+
+  },
+  legend: {
+    enabled: false
+  },
+  plotOptions: {
+    series: {
+      borderWidth: 0,
+      dataLabels: {
+        enabled: true
+      }
+    }
+  },
+
+  series: [
+    {
+      name: "LCP",
+      colorByPoint: true,
+      data: [
+        {
+          name: "전체페이지",
+          y: 1.523
+        },
+        {
+          name: "메인",
+          y: 1.523
+        },
+        {
+          name: "인재채용",
+          y: 1.497          
+        },
+        {
+          name: "회사소개",
+          y: 1.528          
+        },
+        {
+          name: "비즈니스/클라우드",
+          y: 1.254
+        },
+        {
+          name: "DX자료실",
+          y: 0.796
+        }
+      ]
+    }
+  ]
+});
+  }
+
+  function drawGraphFID() {
+    // Create the chart
+Highcharts.chart('graph_FID', {
+  chart: {
+    type: 'column'
+  },
+  title: {
+    align: 'left',
+    text: 'LG CNS 홈페이지 Web Vitals (FID)'
+  },
+  subtitle: {
+    align: 'left',
+    text: '2022.05.16 ~ 2022.05.20'
+  },
+  accessibility: {
+    announceNewData: {
+      enabled: true
+    }
+  },
+  xAxis: {
+    type: 'category'
+  },
+  yAxis: {
+    title: {
+      text: '밀리세컨드 (ms)'
+    }
+
+  },
+  legend: {
+    enabled: false
+  },
+  plotOptions: {
+    series: {
+      borderWidth: 0,
+      dataLabels: {
+        enabled: true
+      }
+    }
+  },
+
+  series: [
+    {
+      name: "FID",
+      colorByPoint: true,
+      data: [
+        {
+          name: "전체페이지",
+          y: 8.314
+        },
+        {
+          name: "메인",
+          y: 9.611
+        },
+        {
+          name: "인재채용",
+          y: 15.082
+        },
+        {
+          name: "회사소개",
+          y: 6.835
+        },
+        {
+          name: "비즈니스/클라우드",
+          y: 4.053
+        },
+        {
+          name: "DX자료실",
+          y: 2.531
+        }
+      ]
+    }
+  ]
+});
+  }
+
+  function drawGraphCLS() {
+    // Create the chart
+Highcharts.chart('graph_CLS', {
+  chart: {
+    type: 'column'
+  },
+  title: {
+    align: 'left',
+    text: 'LG CNS 홈페이지 Web Vitals (CLS)'
+  },
+  subtitle: {
+    align: 'left',
+    text: '2022.05.16 ~ 2022.05.20'
+  },
+  accessibility: {
+    announceNewData: {
+      enabled: true
+    }
+  },
+  xAxis: {
+    type: 'category'
+  },
+  yAxis: {
+    title: {
+      text: 'CLS'
+    }
+
+  },
+  legend: {
+    enabled: false
+  },
+  plotOptions: {
+    series: {
+      borderWidth: 0,
+      dataLabels: {
+        enabled: true
+      }
+    }
+  },
+
+  series: [
+    {
+      name: "CLS",
+      colorByPoint: true,
+      data: [
+        {
+          name: "전체페이지",
+          y: 0.0472
+        },
+        {
+          name: "메인",
+          y: 0.1398
+        },
+        {
+          name: "인재채용",
+          y: 0.0249
+        },
+        {
+          name: "회사소개",
+          y: 0.0113
+        },
+        {
+          name: "비즈니스/클라우드",
+          y: 0.0067
+        },
+        {
+          name: "DX자료실",
+          y: 0.0074
+        }
+      ]
+    }
+  ]
+});
+  }
+
+
+  function drawChartMain() {
+    Highcharts.chart('chart_main', {
 
       chart: {
         type: 'item'
       },
     
       title: {
-        text: 'LG CNS 홈페이지 유입 차트'
+        text: 'LG CNS 홈페이지 유입 차트 (메인 페이지)'
       },
     
       subtitle: {
@@ -270,10 +582,11 @@
         name: 'Representatives',
         keys: ['name', 'y', 'color', 'label'],
         data: [
-          ['Naver/검색', 1065, '#64A12D', 'Naver'],
-          ['Google/검색', 812, '#009EE0', 'Google'],
-          ['직접 유입', 639, '#FFED00', 'Direct'],
-          ['Naver 링크', 162, '#EB001F', 'Naver/링크']
+          ['Naver/검색', 1734, '#64A12D', 'Naver'],
+          ['Google/검색', 1327, '#009EE0', 'Google'],
+          ['직접 유입', 991, '#FFED00', 'Direct'],
+          ['Naver 링크', 266, '#EB001F', 'Naver/링크'],
+          ['Daum/검색', 131, '#BE3075', 'Daum']
         ],
         dataLabels: {
           enabled: true,
@@ -301,5 +614,121 @@
           }
         }]
       }
+    });
+  }
+
+  function drawChartCareer() {
+    Highcharts.chart('chart_career', {
+
+      chart: {
+        type: 'item'
+      },
+    
+      title: {
+        text: 'LG CNS 홈페이지 유입 차트 (인재채용 페이지)'
+      },
+    
+      subtitle: {
+        text: '2022.05.16 ~ 2022.05.20'
+      },
+    
+      legend: {
+        labelFormat: '{name} <span style="opacity: 0.4">{y}</span>'
+      },
+    
+      series: [{
+        name: 'Representatives',
+        keys: ['name', 'y', 'color', 'label'],
+        data: [
+          ['Google/검색', 417, '#009EE0', 'Google'],
+          ['Naver/검색', 282, '#64A12D', 'Naver'],          
+          ['Naver 링크', 104, '#EB001F', 'Naver/링크'],
+          ['직접 유입', 75, '#FFED00', 'Direct']
+        ],
+        dataLabels: {
+          enabled: true,
+          format: '{point.label}'
+        },
+    
+        // Circular options
+        center: ['50%', '88%'],
+        size: '170%',
+        startAngle: -100,
+        endAngle: 100
+      }],
+    
+      responsive: {
+        rules: [{
+          condition: {
+            maxWidth: 600
+          },
+          chartOptions: {
+            series: [{
+              dataLabels: {
+                distance: -30
+              }
+            }]
+          }
+        }]
+      }
+    });
+  }
+
+  function chartMain() {
+    Highcharts.chart('container', {
+      chart: {
+        type: 'column'
+      },
+      title: {
+        text: 'Monthly Average Rainfall'
+      },
+      subtitle: {
+        text: 'Source: WorldClimate.com'
+      },
+      xAxis: {
+        categories: [
+          'LCP',
+          'FID',
+          'CLS'
+        ],
+        crosshair: true
+      },
+      yAxis: {
+        min: 0,
+        title: {
+          text: 'Rainfall (mm)'
+        }
+      },
+      tooltip: {
+        headerFormat: '<span style="font-size:10px">{point.key}</span><table>',
+        pointFormat: '<tr><td style="color:{series.color};padding:0">{series.name}: </td>' +
+          '<td style="padding:0"><b>{point.y:.1f} mm</b></td></tr>',
+        footerFormat: '</table>',
+        shared: true,
+        useHTML: true
+      },
+      plotOptions: {
+        column: {
+          pointPadding: 0.2,
+          borderWidth: 0
+        }
+      },
+      series: [{
+        name: 'Tokyo',
+        data: [49.9, 71.5, 106.4, 129.2, 144.0, 176.0, 135.6, 148.5, 216.4, 194.1, 95.6, 54.4]
+    
+      }, {
+        name: 'New York',
+        data: [83.6, 78.8, 98.5, 93.4, 106.0, 84.5, 105.0, 104.3, 91.2, 83.5, 106.6, 92.3]
+    
+      }, {
+        name: 'London',
+        data: [48.9, 38.8, 39.3, 41.4, 47.0, 48.3, 59.0, 59.6, 52.4, 65.2, 59.3, 51.2]
+    
+      }, {
+        name: 'Berlin',
+        data: [42.4, 33.2, 34.5, 39.7, 52.6, 75.5, 57.4, 60.4, 47.6, 39.1, 46.8, 51.1]
+    
+      }]
     });
   }
